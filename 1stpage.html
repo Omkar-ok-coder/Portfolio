@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        .container{
+            background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+            width:100vw;
+            height:100vh;
+            display:flex;
+            flex-direction:row;
+            justify-content: center;
+            align-items:center;
+            
+        }
+
+        .e_container{
+            width:100vw;
+          /*background-color: rgb(239, 185, 216);*/
+            min-height:80px;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+        }
+
+        .e_container_ul{
+            width:100%;
+            height:5%;
+            margin-left:15px;
+            margin-right:15px;
+            list-style:none;
+           /* background-color: aqua;*/
+            /*font-size:2.5rem;*/
+        }
+        #left_e_container img{
+            height: 5%;
+            width:5%;
+            border-radius:100px;
+            display:flex;
+            /*justify-content: start ;
+            align-items: start;*/
+            margin:20px;
+            /*padding-bottom: 10px;*/
+           /* background-color: antiquewhite;*/
+
+            
+        }
+
+        #right_e_container{
+            display:flex;
+            gap:20px;
+            justify-content: end;
+            font-size:2rem;
+            margin-right: 20px;
+            margin-bottom: 100px;
+            list-style: none;
+           /* background-color: black;*/
+           margin-top:40px;
+           /* margin-right: 40px;*/
+        }
+
+        a{
+            text-decoration: none;
+            color:darkgoldenrod;
+            display:flex;
+            
+        }
+
+
+        .box{
+            height:50vh;
+            width:30vw;
+            /*background-color: beige;*/
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 400px;
+        }
+
+        .leftbox{
+            width:60vw;
+            height:40vh;
+        }
+
+        .leftbox img{
+            width:10vw;
+            height:35vh;
+            margin-left:100px ;
+            border-radius:20px;
+            
+        }
+        .first{
+            font-weight:100
+        }
+
+        .Second{
+            /*display:flex;*/
+            font-style:oblique;
+            font-weight:900
+        }
+
+        .rightbox button{
+            background-color:chartreuse;
+            padding: 10px;
+            margin-top:20px
+        }
+
+       .sec_container{
+        width:100vw;
+        height:50vh;
+        background-color: black;
+       }
+       .sec_container h2{
+        color:white;
+        font-weight:bold;
+        display:flex;
+        justify-content: center;
+        padding-top:40px;
+       }
+
+       .images img{
+        width:6vw;
+        height:8vh;
+        margin-top:60px;
+        margin-left:80px;
+        /*display:flex;
+        /*flex-direction:column row;
+        /*justify-content:space-around space-between;*/
+       }
+
+       .sec_container button{
+        margin-top:60px;
+        background-color:aqua;
+        margin-left:630px;
+        padding:10px;
+        
+       }
+
+       .third_container{
+        width:100vw;
+        height:100vh;
+        background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+        display:flex;
+        justify-content: center;
+        align-items:center;
+
+       }
+
+       .content_wrapper{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        text-align:center;
+       }
+       .third_container h1{
+        margin-bottom: 20px;
+       }
+
+       .p1{
+        /*margin-top:10px;*/
+        background-color:bisque;
+       padding:2px;
+        /*width:40vw;*/
+        height:4vh;
+        font-weight:600;
+       }
+       .dabba{
+        width:60vw;
+        height:60vh;
+        /*background-color: brown;*/
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        
+       }
+
+       .left_dabba{
+        width:100vw;
+        height:50vh;
+        /*margin-left:400px;*/
+        /*background-color: aqua;*/
+        font-weight:600;
+        font-size:large;
+        margin-left:50px;
+        font-style:italic;
+       }
+         
+       .right_dabba img{
+        width:60%;
+        height:80%;
+        margin-left:50px;
+       }
+
+       .sixth_container{
+        width:100vw;
+        height:60vh;
+        background-color: rgb(32, 32, 32);
+        display:flex;
+        justify-content:center;
+        align-items:center;
+
+       }
+
+       .content_wraper2{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+       }
+
+       .sixth_container h1{
+        color:white;
+       }
+
+
+       .sixth_container h4{
+        color:antiquewhite;
+        margin-top:20px;
+        font-weight: lighter;
+       }
+
+       .last_box img{
+         width:5%;
+         height:5%;
+        /*margin:10px;*/
+        margin-left:170px;
+        margin-top:50px;
+
+       }
+
+
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+       <header>
+        <div class="e_container">
+        <ul class="e_container_ul">
+            <li>
+                <div id="right_e_container">
+                    <a href="#">About</a>
+                    <a href="#">Projects</a>
+                    <a href="#">Blog</a>
+            </li>
+
+            <li>
+            <div id="left_e_container">
+                <img src="c:\Users\asus\Downloads\image1.png"/>
+            </div>
+            </li>
+        
+        
+    </ul>
+            </div>
+
+            <div class="box">
+                <div class="leftbox">
+                    <img src="c:\Users\asus\Downloads\Omkar image.jpg"/>
+                </div>
+
+                <div class="rightbox">
+                    <div class="text">
+                        <h2 class="first">Hi, I am </h2>
+                    <h2 class="Second">Omkar Kukadapwar</h2>
+                    <p>Front-end Developer</p>
+                    </div>
+
+                    <div class="button">
+                        <button>CONTACT</button>
+                    </div>
+                </div>
+                 
+                
+               
+                
+            </div>
+        </div>
+       </header>
+    </div>
+
+    <div class="sec_container">
+        <h2>Skills</h2>
+
+        <div class="images">
+            <img src="c:\Users\asus\Downloads\HTML Images.png"/>
+            <img src="c:\Users\asus\Downloads\CSS Image.png"/>
+            <img src="c:\Users\asus\Downloads\Javascript images.png"/>
+            <img src="c:\Users\asus\Downloads\Bootstrap images.png"/>
+            <img src="c:\Users\asus\Downloads\Java images.png"/>
+            <img src="c:\Users\asus\Downloads\C images.png"/>
+            <img src="c:\Users\asus\Downloads\C++ images.png">
+            <img src="c:\Users\asus\Downloads\Github images.png"/>
+        </div>
+
+        <button>MY WORK</button>
+    </div>
+
+    <div class="third_container">
+        <div class="content_wrapper">
+        <h1>About Me</h1>
+
+        <div class="p1">
+            <p>Front-End Dev</p>
+        </div>
+
+        <div class="dabba">
+            <div class="left_dabba">
+            <p>Hi, I am Omkar Kukadapwar. Current front-end developer from India living in
+                Nagpur. I spend my time on personal projects and Iearning more about Front
+                end and how to improve my skills. I am passionate about building accessible,
+                user-friendly websites and web applications. My skills include HTML,
+                CSS(SASS), Javascript (ES6), React, GIT, Github, Netlify. However,
+                lam constantly learning and am open to new technologies. if you think I would be a
+                great fit for your team feel free to contact me so we can chat.
+                </p>
+                
+                <p>
+                As a self-taught developer 1 am a fast, effecient and resourceful learner. With
+                my abilities and skills I am able to solve problems quickly. In my free time1
+                enjoy spending time with my family in nature,playing sports, and making CSS
+                art. Since I am actually very bad at drawing or painting CSS is my
+                creative
+                outlet. Check out some of my art.</p>
+            </div>
+
+            <div class="right_dabba">
+                <img src="c:\Users\asus\Downloads\OK7.jpg"/>
+            </div>
+        </div>
+    </div>
+        </div>
+
+        <div class="sixth_container">
+            <div class="content_wraper2">
+       <h1>Contact</h1>
+       <h4>Lets Work Together</h4>
+       <a href="#">omkarkukadapwwar@gmail.com</a>
+
+       <div class="last_box">
+        <img src="c:\Users\asus\Downloads\youtube image.jpg"/>
+        <img src="c:\Users\asus\Downloads\Instagram.webp"/>
+        <img src="c:\Users\asus\Downloads\Twitter image.webp"/>
+        <img src="c:\Users\asus\Downloads\Linkedin image.png"/>
+        <img src="c:\Users\asus\Downloads\Facebook image.png"/>
+        
+       </div>
+    </div>
+        </div>
+</body>
+</html>
